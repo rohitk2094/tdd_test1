@@ -5,3 +5,4 @@ from dataclasses import dataclass
 class Guardian:
     first_name: str
     last_name: str
+    dummy_name : str
