@@ -4,5 +4,5 @@ pytest.ini
 .pytest_cache
 src/laxleague/guardian.py
 src/laxleague/player.py
-src/tests/test_guardian.py
-src/tests/test_player.py
+tests/test_guardian.py
+tests/test_player.py
