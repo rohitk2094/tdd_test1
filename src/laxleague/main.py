@@ -34,9 +34,8 @@ class Sale:
         elif barcode == "99999":
             price = 'barcode not found: 99999'
         else:
-            price = None
+            price = "scanning error"
         return price
-
 
 
 

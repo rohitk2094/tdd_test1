@@ -17,9 +17,9 @@ from laxleague.main import generate_price_list, get_price, Sale
 def test_get_price():
     # assert 50 == get_price('5', price_list)
     sale = Sale()
-    price = sale.get_price("99999")
+    price = sale.get_price("")
 
-    assert price == "barcode not found: 99999"
+    assert price == "scanning error"
 
     # assert 20 == get_price(2, price_list)
     # assert None == get_price(8, price_list)
