@@ -19,7 +19,7 @@ def test_get_price():
     sale = Sale()
     price = sale.get_price("99999")
 
-    assert price == "Not found"
+    assert price == "barcode not found: 99999"
 
     # assert 20 == get_price(2, price_list)
     # assert None == get_price(8, price_list)

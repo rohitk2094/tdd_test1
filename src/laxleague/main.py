@@ -31,6 +31,8 @@ class Sale:
             price = 'EUR: 10'
         elif barcode == "23456":
             price = 'EUR: 10.5'
+        elif barcode == "99999":
+            price = 'barcode not found: 99999'
         else:
             price = None
         return price
